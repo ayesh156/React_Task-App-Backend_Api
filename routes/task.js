@@ -1,7 +1,7 @@
 const express = require("express");
 const Task = require("../models/task");
 const router = require("./user");
-const User = require("../models/user");
+const User = require("../models/User");
 const {authenticateToken} = require("./auth");
 
 // create task
